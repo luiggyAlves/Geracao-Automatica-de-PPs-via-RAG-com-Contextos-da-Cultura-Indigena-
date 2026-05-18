@@ -48,8 +48,11 @@ Obtenha uma chave gratuita em [console.groq.com](https://console.groq.com) e def
 # Linux/macOS
 export GROQ_API_KEY=sua_chave_aqui
 
-# Windows (PowerShell)
+# Windows — PowerShell
 $env:GROQ_API_KEY = "sua_chave_aqui"
+
+# Windows — Prompt de Comando (cmd.exe)
+set GROQ_API_KEY=sua_chave_aqui
 ```
 
 Ou copie `.env.example` para `.env` e preencha o valor (use `python-dotenv` ou carregue manualmente antes de executar).

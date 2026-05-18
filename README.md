@@ -7,7 +7,6 @@ Usa RAG (Retrieval-Augmented Generation) para criar problemas de ordenação de 
 ## Pré-requisitos
 
 - Python 3.11+
-- PDFs de livros sobre culturas indígenas brasileiras
 
 ## Instalação
 
@@ -57,17 +56,9 @@ Ou copie `.env.example` para `.env` e preencha o valor (use `python-dotenv` ou c
 
 ## Uso
 
-### 1. Adicionar livros
+### 1. Construir a base de conhecimento
 
-Coloque arquivos PDF na pasta `Livros/` (livros de até 200 páginas):
-
-```
-Livros/
-├── historia_yanomami.pdf
-└── cultura_guarani.pdf
-```
-
-### 2. Construir a base de conhecimento
+> Os livros já estão incluídos na pasta `Livros/` do repositório. Não é necessário adicionar PDFs manualmente.
 
 ```bash
 rag-parsons build-kb

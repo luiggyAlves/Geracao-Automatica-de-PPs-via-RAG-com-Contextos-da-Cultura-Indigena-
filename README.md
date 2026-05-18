@@ -13,7 +13,7 @@ Usa RAG (Retrieval-Augmented Generation) para criar problemas de ordenação de 
 
 ```bash
 git clone <repo-url>
-cd rag_parsons
+cd Geracao-Automatica-de-PPs-via-RAG-com-Contextos-da-Cultura-Indigena-
 ```
 
 > **Atenção:** o ambiente virtual não é incluído no repositório. Crie-o manualmente após clonar:

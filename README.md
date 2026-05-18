@@ -16,10 +16,15 @@ git clone <repo-url>
 cd rag-parsons
 
 python -m venv .venv
+
 # Linux/macOS:
 source .venv/bin/activate
-# Windows:
-.venv\Scripts\activate
+
+# Windows — PowerShell:
+.\.venv\Scripts\activate
+
+# Windows — Prompt de Comando (cmd.exe):
+.venv\Scripts\activate.bat
 
 pip install -e .
 ```

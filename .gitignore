@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# ChromaDB persistence (auto-created, rebuilt via build-kb)
+chroma_db/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ferramentas de desenvolvimento (SpecKit, Claude Code)
+.specify/
+.claude/
+specs/
+tests/
+CLAUDE.md
+
+# Banco vetorial (auto-gerado via build-kb)
+*.sqlite3

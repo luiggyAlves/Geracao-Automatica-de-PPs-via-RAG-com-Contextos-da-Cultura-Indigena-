@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-parsons"
+version = "0.1.0"
+description = "RAG-based Parsons problem generator with Brazilian indigenous cultural context"
+requires-python = ">=3.11"
+dependencies = [
+    "groq>=0.9.0",
+    "chromadb>=0.5.0",
+    "sentence-transformers>=3.0.0",
+    "pypdf>=4.0.0",
+    "typer[all]>=0.12.0",
+    "pydantic>=2.0.0",
+]
+
+[project.scripts]
+rag-parsons = "rag_parsons.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rag_parsons*"]

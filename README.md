@@ -11,7 +11,7 @@ Usa RAG (Retrieval-Augmented Generation) para criar problemas de ordenação de 
 ## Instalação
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/luiggyAlves/Geracao-Automatica-de-PPs-via-RAG-com-Contextos-da-Cultura-Indigena-.git
 cd Geracao-Automatica-de-PPs-via-RAG-com-Contextos-da-Cultura-Indigena-
 ```
 

@@ -13,10 +13,18 @@ Usa RAG (Retrieval-Augmented Generation) para criar problemas de ordenação de 
 
 ```bash
 git clone <repo-url>
-cd rag-parsons
+cd rag_parsons
+```
 
+> **Atenção:** o ambiente virtual não é incluído no repositório. Crie-o manualmente após clonar:
+
+```bash
 python -m venv .venv
+```
 
+Ative o ambiente virtual:
+
+```bash
 # Linux/macOS:
 source .venv/bin/activate
 
@@ -25,7 +33,11 @@ source .venv/bin/activate
 
 # Windows — Prompt de Comando (cmd.exe):
 .venv\Scripts\activate.bat
+```
 
+Instale as dependências:
+
+```bash
 pip install -e .
 ```
 

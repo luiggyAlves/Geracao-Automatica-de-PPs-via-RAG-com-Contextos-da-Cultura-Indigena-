@@ -1,4 +1,6 @@
-# Colibri — RAG-Parsons Indígena
+Geracão Automática de Problemas de Parsons via RAG para o
+Ensino Inclusivo de Programacão com Contextos da Cultura
+Indígena
 
 Gerador de exercícios de Parsons com contexto cultural indígena brasileiro.
 

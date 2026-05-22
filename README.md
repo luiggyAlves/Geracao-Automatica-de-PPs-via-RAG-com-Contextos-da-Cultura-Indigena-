@@ -131,12 +131,6 @@ rag-parsons info
 | `laco_while` | Laço while |
 | `vetores` | Vetores |
 | `strings` | Strings |
-| `boas_praticas` | Boas práticas de programação |
-| `funcoes` | Funções |
-| `procedimentos` | Procedimentos |
-| `param_funcoes` | Parâmetros de funções |
-| `escopo_variaveis` | Escopo de variáveis |
-
 ## Formato de saída (JSON)
 
 ```json

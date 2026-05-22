@@ -125,7 +125,6 @@ rag-parsons info
 | `cond_compostas` | Estruturas condicionais compostas |
 | `cond_aninhadas` | Estruturas condicionais aninhadas |
 | `cond_encadeadas` | Estruturas condicionais encadeadas |
-| `switch_case` | Estruturas switch/case |
 | `lacos` | Laços de repetição |
 | `laco_for` | Laço for |
 | `laco_while` | Laço while |

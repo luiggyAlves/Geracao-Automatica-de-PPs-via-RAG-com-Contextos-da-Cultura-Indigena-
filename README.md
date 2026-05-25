@@ -112,7 +112,6 @@ rag-parsons info
 | ID | Tópico |
 |----|--------|
 | `variaveis` | Variáveis |
-| `constantes` | Constantes |
 | `tipos_dados` | Tipos de dados básicos |
 | `op_atribuicao` | Operadores de atribuição |
 | `op_aritmeticos` | Operadores aritméticos |
